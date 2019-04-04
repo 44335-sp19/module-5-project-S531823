@@ -60,7 +60,7 @@ $(document).ready(function(){
     $("#jq2").one("click", function() {
         var input = window.prompt("jQuery for $200:\nWho originally released jQuery?");
         if(input == "John Resig" || input == "john resig") {
-            score += 100;
+            score += 200;
             alert("Correct!");
             scoreOut = "Score: $" + score.toString();
             document.getElementById("score").innerHTML = scoreOut;
