@@ -1,1 +1,19 @@
 body{}
+
+.jumbotron {
+    color: purple;
+}
+
+.category {
+    background-color: royalblue;
+    color: white;
+}
+
+td {
+    max-width: 100px;
+    min-width: 100px;
+}
+
+td:hover {
+    background-color: lightgrey;
+}
